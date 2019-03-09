@@ -6,9 +6,9 @@
            [(ngModel)]="query">
   </mat-form-field>
   <div class="button-row" style="margin-left: 10px;">
-    <input mat-raised-button value="Submit" type="button"
+    <button mat-raised-button 
             color="primary"
-            click="search('query')" />
+            (click)="search(query)">Submit</button>
   </div>
 </form>
 

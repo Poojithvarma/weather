@@ -1,0 +1,4 @@
+#Fri Mar 08 17:02:11 IST 2019
+base.0=C\:\\Users\\pooji\\OneDrive\\Desktop\\WeatherAppApi\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

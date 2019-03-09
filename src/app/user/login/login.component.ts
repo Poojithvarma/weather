@@ -24,6 +24,6 @@ export class LoginComponent implements OnInit {
       this.snackBar.open(`Welcome ${content.displayName}`, 'OK', {
         duration: 5000
       });
-      this.router.navigate(['/home']);
+      this.router.navigate(['/weather']);
     }
   }

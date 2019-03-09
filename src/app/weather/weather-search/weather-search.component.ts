@@ -22,13 +22,14 @@ export class WeatherSearchComponent implements OnInit {
     this.weatherDataService.weather = data;
   }
 
-  search() {
+  search(query1) {
+    query1=this.query;
     this.weatherService
-        .searchWeatherData(this.query)
+        .searchWeatherData(query1)
         .subscribe(
           weather => this.weather = weather,
           error => this.errorMessage = <any>error,
-          () => this.query = ''
+          () => query1 = ''
         );
   }
 
